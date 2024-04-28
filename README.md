@@ -3,7 +3,7 @@ pip install -r requirements.txt
 
 # run django
 activate environment
-copy env vars from .env.sample file and change according to your db credentials
+copy env vars from .env.sample file; create a .env file and update your db credentials 
 
 - ./manage.py migrate
 - ./manage.py runserver
